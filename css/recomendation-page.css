@@ -1,0 +1,43 @@
+.body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.top-menu-nav-menu {
+  display: flex;
+  position: absolute;
+  left: -1000px;
+}
+.recom {
+  margin-top: 110px;
+}
+.recom .recomendation-block {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+}
+.recom .recomendation-block .column {
+  margin: 2vw;
+  width: 30%;
+  margin-top: 60px;
+}
+.scroll {
+  display: flex;
+  align-items: stretch;
+  align-content: center;
+  justify-content: center;
+}
+.scroll .arrow {
+  margin-bottom: 10vh;
+}
+.scroll a {
+  align-self: center;
+}
+html {
+  scroll-behavior: smooth;
+}

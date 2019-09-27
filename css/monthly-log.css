@@ -1,0 +1,86 @@
+.monthly-log {
+  height: 90vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+}
+.monthly-log .left-col,
+.monthly-log .right-col {
+  width: 50%;
+}
+.monthly-log .left-col h1,
+.monthly-log .right-col h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+  margin: 90px;
+  padding-top: 40px;
+}
+.monthly-log .left-col {
+  background: #e7e4ec;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.monthly-log .right-col {
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/sky.jpg);
+  background-size: cover;
+  float: right;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.monthly-log .right-col .caption {
+  position: absolute;
+  top: 0;
+  left: -1000px;
+  width: 100%;
+  height: 100%;
+  background: #e7e4ec;
+  transition: 0.7s;
+  text-align: center;
+}
+.monthly-log .right-col .caption .content {
+  position: relative;
+  top: 21%;
+  color: black;
+}
+.monthly-log .right-col .caption .content h2 {
+  position: relative;
+  margin-top: 30px;
+  top: 21%;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+.monthly-log .right-col .caption .content h1 {
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+}
+.monthly-log .right-col .caption .content i {
+  margin-top: 15px;
+}
+.monthly-log .right-col .caption .content ul {
+  position: relative;
+  top: 21%;
+  color: #fff;
+}
+.monthly-log .right-col:hover .caption {
+  left: 0px;
+}
+.monthly-log #quote1 {
+  padding-top: 90px;
+}
+.monthly-log #qiute2 {
+  padding-bottom: 90px;
+  bottom: 30px;
+}
